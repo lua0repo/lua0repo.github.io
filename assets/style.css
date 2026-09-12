@@ -11,6 +11,8 @@ a{color:inherit;text-decoration:none}.nav{position:sticky;top:0;z-index:10;displ
 @media(max-width:550px){.four,.three{grid-template-columns:1fr}.hero{padding-left:6%;padding-right:6%}.section{padding:65px 6%}.hero h1{font-size:54px}}
 body.darkmode{--bg:#0b0b0b;--fg:#f3f3f0;--muted:#999;--card:#151515;--line:#303030}.darkmode .hero{background:radial-gradient(circle at 80% 20%,#273500 0,transparent 25%)}
 .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.tag{border:1px solid var(--line);padding:5px 11px;font-size:11px;font-weight:800;letter-spacing:.4px}
+.tag[href]{cursor:pointer;transition:background .15s,color .15s}
+.tag[href]:hover{background:#9dff00;color:#101010;border-color:#9dff00}
 .proof-card{background:var(--card);border:1px solid var(--line);padding:26px}.dark .proof-card{background:#171717;border-color:#333}
 .proof-card .evidence{display:inline-block;font-size:10px;font-weight:900;letter-spacing:1.5px;padding:4px 9px;margin-bottom:12px;border:1px solid #7fbf00;color:#5a8c00}
 .dark .proof-card .evidence{color:#9dff00;border-color:#9dff00}
